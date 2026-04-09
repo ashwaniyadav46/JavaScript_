@@ -25,4 +25,9 @@ console.log("Type of Numeric Score from Undefined:", typeof numericScore5); // L
 let someno=100;
 let stringScore = String(someno); // Converting the number to a string using the String() function
 console.log("String Score:", stringScore);
-console.log("Type of String Score:", typeof stringScore); // Logging the data type of stringScore to the console
+console.log("Type of String Score:", typeof stringScore); // Logging the data type of stringScore to the console 
+let value=3.14;
+let negativeValue=-value;
+console.log("Negative Value:", negativeValue);
+console.log(1+"2"); // This will result in "12" because the number 1 is converted to a string and concatenated with the string "2"
+console.log(+true); // This will result in 1 because the unary plus operator converts true to a number
